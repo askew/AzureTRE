@@ -116,7 +116,7 @@ for container in "${containers[@]}"; do
   done
 done
 
-# Set up Terraform
+# Set up Terraform.
 echo -e "\n\e[34m»»» ✨ \e[96mTerraform init\e[0m..."
 # shellcheck disable=SC2154
 cat > bootstrap_backend.tf <<BOOTSTRAP_BACKEND
