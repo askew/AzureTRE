@@ -152,3 +152,4 @@ if ! terraform state show azurerm_storage_account.state_storage > /dev/null; the
 fi
 echo "State imported"
 set +o nounset
+# check
