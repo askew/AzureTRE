@@ -108,7 +108,6 @@ if ! retry_with_backoff check_role_assignments; then
   echo "ERROR: Timeout waiting for az role assignments."
   exit 1
 fi
-# check
 # Blob container
 # shellcheck disable=SC2154
 
