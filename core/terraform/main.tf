@@ -31,6 +31,7 @@ provider "azapi" {
 }
 
 provider "azurerm" {
+  storage_use_azuread = true
   features {
     key_vault {
       # Don't purge on destroy (this would fail due to purge protection being enabled on keyvault)
